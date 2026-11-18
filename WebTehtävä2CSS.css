@@ -143,3 +143,121 @@ body {
     margin-right: 35px;
     box-shadow: 10px 10px rgb(2, 44, 2);
 }
+
+
+@media (max-width: 1390px) {
+    .first-paragraph-boxes {
+        justify-content: center;
+    }
+
+    .Meistä-text {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .Kuvagalleria {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .News {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+        gap: 20%;
+    }
+}
+
+@media (max-width: 683px) {
+    .header {
+        font-size: 13px;
+    }
+
+    .first-paragraph-boxes {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 50%;
+        gap: 30px;
+    }
+
+    .Meistä-text {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 60%;
+    }
+
+    .Bottom-news1 {
+        padding-left: 8px;
+    }
+
+    .Bottom-news2 {
+        padding-left: 8px;
+    }
+
+    #Myrtsi {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 590px) {
+    .header {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 445px) {
+    .first-paragraph-boxes  {
+        font-size: 14px;
+    }
+
+    .Meistä-text {
+        font-size: 14px;
+    }
+
+    .Kuvagalleria h3 {
+        font-size: 17px;
+    }
+
+    .News {
+        font-size: 14px;
+        gap: 14%;
+    }
+
+    .Bottom-news1 {
+        padding-right: 18px;
+    }
+}
+
+@media (max-width: 410px) {
+    .header #Murkoff {
+        display: none;
+    }
+
+    .News {
+        font-size: 13px;
+    }
+
+    .Bottom-news1 ul {
+        padding-left: 15px;
+    }
+
+    .Bottom-news2 ul {
+        padding-left: 15px;
+    }
+}
