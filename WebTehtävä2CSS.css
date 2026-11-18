@@ -241,8 +241,12 @@ body {
         gap: 14%;
     }
 
-    .Bottom-news1 {
-        padding-right: 18px;
+    .Bottom-news1 ul {
+        padding-left: 18px;
+    }
+
+    .Bottom-news2 ul {
+        padding-left: 18px;
     }
 }
 
@@ -262,4 +266,14 @@ body {
     .Bottom-news2 ul {
         padding-left: 15px;
     }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 53, 16);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    color: white;
 }
